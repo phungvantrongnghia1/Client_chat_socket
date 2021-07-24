@@ -1,0 +1,95 @@
+.Chat{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+.room{
+    width: 50%;
+}
+.contact{
+    width: 20%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 0 ;
+}
+.right button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+}
+/* room */
+.room{
+    margin-right: 200px;
+    box-shadow: 0 0 3px 1px rgba(182, 179, 179, 0.433);
+}
+.room-header{
+    border-bottom: 1px solid rgba(182, 179, 179, 0.433);
+    height: 7%;
+}
+.room-mes{
+    height: 92%;
+    position: relative;
+}
+.form-send{
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    width: 100%;
+}
+.form-send-content{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 16px;
+}
+.form-send-content input{
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(182, 179, 179, 0.808);
+    margin-right: 10px;
+}
+.form-send-content input:focus{
+    outline: unset;
+}
+.form-send-content button {
+  cursor: pointer;  
+}
+/*  */
+.friend-item{
+    display: flex;
+    align-items: center;
+    padding: 16px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.friend-item:hover{
+    background-color: rgba(128, 128, 128, 0.07);
+    transition: 0.3s;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  
+}
+.avatar-container{
+    position: relative;
+    margin-right: 16px
+}
+.avatar-container::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(18, 199, 18);
+}

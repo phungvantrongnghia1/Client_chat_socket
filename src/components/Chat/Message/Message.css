@@ -1,0 +1,17 @@
+.content{
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 16px;
+  background-color: rgba(128, 128, 128, 0.322);
+  word-spacing: 4px;
+  color: black;
+  margin: 6px;
+  max-width: 250px;
+    overflow-wrap: break-word;
+}
+.message-container{
+  display: flex;
+}
+.right{
+  justify-content: flex-end;
+}
